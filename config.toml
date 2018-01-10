@@ -1,0 +1,43 @@
+baseURL = "https://www.fillup.io"
+languageCode = "en-us"
+title = "The Boring Blog of Phillip Shipley"
+theme = "mainroad"
+paginate = "10"
+googleAnalytics = "UA-20741578-1"
+disqusShortname = "phillipshipley"
+metaDataFormat = "toml"
+pygmentsstyle = "default"
+
+[Author]
+    name = "Phillip Shipley"
+    bio = "Phillip has been a coder longer than he'd like to admit. Most of his work has been hacking on integrations and API development. Take everything he says with a bucket of salt."
+    avatar = "img/avatar.jpg"
+
+
+[Params]
+    subtitle = "Mostly about programming and DevOps stuff" # Subtitle of your site
+    description = "Phillip's blog about programming and DevOps stuff" # Description of your site
+    opengraph = true
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+    #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+    #dateformat = "2006-01-02" # change the format of dates
+
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent articles" widget
+    recent_articles_num = 10 # Set the number of articles in the "Recent articles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+    # Enable "Social" widget, if any of "social_*" set a value
+    #social_facebook = ""
+    social_twitter = "phillipshipley"
+    social_linkedin = "phillip-shipley"
+    social_github = "fillup"
+    social_email = "phillip@fillup.io"

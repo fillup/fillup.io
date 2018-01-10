@@ -1,0 +1,7 @@
+.idea/
+*.tfstate
+*.tfstate.backup
+.terraform/
+gen-redir-xml.php
+redirects.xml
+url-redirects.txt

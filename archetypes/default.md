@@ -1,0 +1,9 @@
++++
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date = {{ .Date }}
+draft = true
+categories = [""]
+tags = [""]
+description = ""
+thumbnail = "img/"
++++
