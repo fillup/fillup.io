@@ -1,4 +1,5 @@
-// Create S3 bucket and CloudFront distribution
+// Create S3 bucket and CloudFront distribution using Terraform module designed for S3/CloudFront
+// configuration of a Hugo site. See: https://registry.terraform.io/modules/fillup/hugo-s3-cloudfront/aws/1.0.1
 module "hugosite" {
   source         = "fillup/hugo-s3-cloudfront/aws"
   version        = "1.0.1"
